@@ -1,1 +1,1 @@
-# Computaci-n-Paralela-y-Distribu-da
+# Computación-Paralela-y-Distribuída
