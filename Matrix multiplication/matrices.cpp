@@ -67,7 +67,7 @@ vector<vector<int>> multiple_opt(vector<vector<int>> A, vector<vector<int>> B, i
 	
 	c1 = std::clock();
 	
-	int block_size = 2;
+	int block_size = 128;
 	
 	for (int k = 0; k < len; k += block_size)
 		for (int j = 0; j < len; j += block_size)
