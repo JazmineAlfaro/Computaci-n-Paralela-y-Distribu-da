@@ -33,9 +33,8 @@ vector<vector<int>> multimat_naive(vector<vector<int>> A, vector<vector<int>> B,
 	for (int i = 0; i < len;++i ){
 		for (int j = 0; j < len;++j ){
 			for (int k = 0; k < len;++k){
-				cout<<"C : "<<i<< " - "<<j<<" "<<C[i][j]<<endl;
 				C[i][j] += A[i][k] * B[k][j];
-				cout<<"-C : "<<i<< " - "<<j<<" "<<" - "<<k<<" "<<endl;
+				
 			}
 		}
 	}
