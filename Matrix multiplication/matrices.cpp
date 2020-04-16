@@ -55,7 +55,7 @@ vector<vector<int>> multimat_naive(vector<vector<int>> A, vector<vector<int>> B,
 }
 
 	
-vector<vector<int>> multiple_opt(vector<vector<int>> A, vector<vector<int>> B, int len){
+vector<vector<int>> multimat_block(vector<vector<int>> A, vector<vector<int>> B, int len){
 	vector<vector<int>> C;
 	C.resize(len);
 	for(int i=0;i<len;++i){
